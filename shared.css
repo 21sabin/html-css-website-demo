@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box; 
+    /* it increases widht and height of the content if we have content-box value in box-sizing */
+}
+body{
+    margin:0px;
+    font-family: 'Montserrat', sans-serif;
+}
+.main-header nav {
+    display:inline-block;
+    text-align:right;
+    width:calc(100% - 79px ); 
+    vertical-align: middle;
+}
+
+.main-header-brand {
+    display:inline-block
+}
+
+
+.main-nav-item a:hover,
+.main-nav-item a:active  {
+    color:white;
+    border-bottom:5px solid white;
+    padding:8px 2px;
+}
+
+.main-nav-item__button a {
+    background-color:#f44277;
+    padding:10px;
+    color:white;
+    border-radius:10px
+
+}
+
+.main-nav-item a:hover,
+.main-nav-item a:active  {
+border:none;
+background-color:white;
+color:red;
+padding:10px
+}
+
+.main-nav-item > a {
+    text-decoration: none;
+   
+}
+
+.main-header__brand{
+    font-weight: bold;
+    font-size: 22px;
+   
+}
+.main-header__brand > a{
+    text-decoration: none
+}
+
+.main-header{
+    background-color:green;
+    padding:10px;
+    position:fixed;
+    width:100%;
+}
+
+/* fixed property always makes element available to the viewport 
+fixed propery taked element out of the document flow
+*/
+
+.main-header > div{
+   display: inline-block;
+   vertical-align: middle
+}
+nav ul{
+    list-style:none;
+}
+
+nav ul li {
+    display:inline;
+    padding:10
+}
+
+.main-footer {
+    background-color:#000;
+}
+
+.main-footer-items {
+    text-align:center;
+    padding:30px
+}
+
+.main-footer-item {
+    color:#fff;
+    padding:0;
+    margin:0;
+    display:inline-block;
+    margin:20px 30px
+}
+
+.main-footer-item:hover,
+.main-footer-item:active {
+    color:#ccc;
+}

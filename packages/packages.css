@@ -1,0 +1,21 @@
+.package {
+    border:5px solid #663300;
+    width:70%;
+    padding:20px;
+    margin-top:10px ;
+    border-left:none
+}
+
+.package a {
+    display:inline-block;
+    text-decoration: none
+}
+.clearfix{
+    clear:both
+}
+#free{
+    float: right;
+    border-left:5px solid #663300;
+    border-right:none
+}
+/* Use float only for image and text for other div element you have to use clear property */

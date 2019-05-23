@@ -1,0 +1,178 @@
+/* .heading{
+    color:blue
+}
+
+h1{
+    background-color: green;
+    color:red;
+
+} */
+/* when different css rule is applied to the same elment , there occurs an conflict
+e.g color red and color blue in above h1 */
+/* h1{
+    color:blue;
+} */
+
+
+
+/* selecting element with attributes */
+/* [disabled]{
+    color:red
+}
+
+h2+p{
+    color:red;
+} */
+
+
+
+/* specifity rule:
+Inheritance has lower specifity than browser
+all the element down to the body tag will inherite the font-family properties but is has lowest priority
+*/
+
+#section-overview{
+    background-color:red;
+    width:100%;
+    height: 528px;
+}
+
+.section-title{
+    color:red
+}
+
+h1{
+   color:#fff;
+}
+
+/* h1+p{
+    color:red
+}
+p{
+    color:green
+} */
+/* Note
+adjavent sibling has more specifity(priority ) than element selector */
+
+
+
+
+
+
+#plans{
+    padding:20px;
+    text-align:center
+}
+
+.plan{
+    display:inline-block;
+    vertical-align: middle;
+    margin:10px 40px;
+    border:1px solid #0c0c66;
+    padding:10px
+}
+.plan > h1 {
+    background-color:#216fed;
+    padding:5px
+
+}
+
+.plan > h2 {
+    background-color:#216fed;
+    padding:5px
+}
+
+.plan-sub-heading {
+    background-color:#0c2e66;
+    color:white;
+    padding:4px
+}
+
+.plan-services{
+    list-style:none;
+    vertical-align: middle;
+    margin:0px;
+    padding:0px;
+    padding:10px
+    /* removing the default margin and padding assigned by the browser */
+}
+
+
+.plan-service{
+    padding:3px;
+    text-align: left;
+    font-weight: bold
+}
+
+.plan-button{
+    background-color:yellow;
+    /* border-bottom:1px solid #660c18; */
+    color:black;
+    padding:10px;
+    width:60%;
+    font-weight:bold;
+    box-shadow: 2px 2px 2px 2px rgb(0,0,0,0.5);
+    font:inherit;
+    cursor:pointer;
+    border-radius:12px  
+}
+
+.plan-button:hover,
+.plan-button:active {
+    background-color:#fff;
+    color:#000;
+}
+
+#key-features {
+    background-color:#f44271;
+    padding:10px;
+    margin-top:40px
+}
+
+#key-features >.section-title{
+    color:white;
+    text-align:center
+}
+
+.key-features-list {
+    list-style: none;
+    text-align:center
+}
+
+.key-feature-list {
+    display:inline-block;
+    padding-right:50px
+    
+}
+
+.key-features__image {
+    background-color:#fff;
+    border-width:1px solid #7f797a;
+    border-radius:50%;
+    width:150px;
+    height:150px;
+    margin:auto
+    /* to aling center horizontally we can use margin auto */
+}
+
+
+
+/* Note -->TO display two div on the same line use display=inline-block */
+
+
+
+
+
+
+#section-overview {
+    background: url('freedom.jpg')
+}
+
+
+
+
+
+/* if you want to overwrite the inheritance styla and browser default style we can use universal selector */
+
+/* Note ---> Research psuedo class and psuedo element :mdn */
+
