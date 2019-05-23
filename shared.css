@@ -17,6 +17,10 @@ body{
     display:inline-block
 }
 
+.main{
+    padding-top:40px
+}
+
 
 .main-nav-item a:hover,
 .main-nav-item a:active  {
@@ -61,7 +65,7 @@ padding:10px
     position:fixed;
     width:100%;
 }
-
+/* z-index can only be applied for property positon = fixed */
 /* fixed property always makes element available to the viewport 
 fixed propery taked element out of the document flow
 */
