@@ -168,11 +168,15 @@ adjavent sibling has more specifity(priority ) than element selector */
     background: url('freedom.jpg')
 }
 
-
-
+ 
 
 
 /* if you want to overwrite the inheritance styla and browser default style we can use universal selector */
 
 /* Note ---> Research psuedo class and psuedo element :mdn */
 
+Position property:
+1 . if position = fixed ; the element is position based on viewport and it is taken out from DOM.
+2. if position = absolute ; the element is position based on its parent and it is also taken out from DOM.
+3. if position = relative ; element is moved or position from its current postion.
+    
